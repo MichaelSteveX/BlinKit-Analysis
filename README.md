@@ -1,37 +1,46 @@
-# BlinKit-Analysis
-📊 Blinkit Analysis – Project Description
+# 🛒 Blinkit Sales Analysis (EDA + Power BI Dashboard)
 
-This Jupyter Notebook contains a detailed Exploratory Data Analysis (EDA) of the Blinkit dataset. The analysis focuses on understanding the dataset, cleaning it, and generating meaningful insights.
+# Project Overview
+This project focuses on performing Exploratory Data Analysis (EDA) and building an interactive Power BI dashboard on Blinkit (India’s last-minute delivery app) sales data.
 
-🔎 Key Highlights:
+The main objective is to extract meaningful business insights related to sales performance, product categories, outlet distribution, and customer ratings, and present them through a visually appealing and professional dashboard for better decision-making
 
-Data Loading & Libraries:
-Used Python libraries like Pandas, NumPy, Matplotlib, and Seaborn for data handling and visualization.
+# 🎯 Key Objectives
+* Analyze overall sales performance and trends
+* Understand customer buying behavior
+* Identify top-performing item types and outlet categories
+* Evaluate impact of outlet size, location, and fat content
+* Build a dynamic and interactive dashboard
+  
+# 🧰 Tools & Technologies
+* Python (Pandas, NumPy, Matplotlib, Seaborn) → Data Cleaning & EDA
+* Power BI → Dashboard Development & Data Visualization
+* Jupyter Notebook → Analysis Workflow
 
-Data Exploration:
+# 📊 Dashboard Features
+* KPI Cards: Total Sales, Avg Sales, No. of Items, Avg Ratings
+* Sales Trend Analysis (Year-wise Outlet Establishment)
+* Category-wise Sales (Item Type Analysis)
+*Outlet Insights:
+    * Size (Small, Medium, High)
+    * Location (Tier 1, Tier 2, Tier 3)
+    * Outlet Type Comparison
+* Fat Content Analysis (Low Fat vs Regular)
+    * Interactive Filters:
+    * Outlet Type
+    * Outlet Size
+ 
+# 🔍 Key Insights
+* Tier 3 outlets contribute the highest sales share
+* Fruits, Snacks, and Household items dominate sales
+* Medium-sized outlets generate maximum revenue
+* Customer ratings remain consistently high (~4.0)
+* Blanced demand between Low Fat and Regular products
 
-Checked dataset size, columns, and data types.
+# 📁 Project Structure
+```Blinkit Analysis.ipynb``` → Data Cleaning & EDA
 
-Handled missing values and calculated percentage of nulls.
+```Power BI Dashboard.pbix``` → Interactive Dashboard
 
-Explored summary statistics using describe().
-
-Data Cleaning:
-Identified and treated missing or inconsistent values for better quality analysis.
-
-Visualizations & Insights:
-Created visual plots to understand data distribution, trends, and correlations.
-
-🛠 Tools & Technologies Used:
-
-Python
-
-Pandas & NumPy
-
-Matplotlib & Seaborn
-
-Jupyter Notebook
-
-🎯 Purpose:
-
-This project aims to provide data-driven insights into Blinkit’s dataset, helping to understand business patterns, customer preferences, and potential improvement areas.
+```Dataset``` → Raw Sales Data
+                                                                                                                                                  
